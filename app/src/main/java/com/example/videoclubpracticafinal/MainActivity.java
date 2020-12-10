@@ -16,7 +16,8 @@ import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button boton, botonModificarSerie,botonNuevoCapitulo,editarCapitulo;
+    Button boton, botonModificarSerie,botonNuevoCapitulo,editarCapitulo,mostrarCSV,mostrarJSON,mostrarXML;
+    //Version final (creo)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         botonModificarSerie = findViewById(R.id.modificarSerie);
         botonNuevoCapitulo = findViewById(R.id.botonInsertarCapitulo);
         editarCapitulo = findViewById(R.id.editarCapitulo);
+        mostrarCSV = findViewById(R.id.mostrarCSV);
+        mostrarJSON = findViewById(R.id.mostrarJSON);
+        mostrarXML = findViewById(R.id.mostrarXML);
         int id=1;
         String nombre="pepito";
         String fecha = "07/12/2020";
@@ -69,6 +73,36 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this,editarCapituloActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        mostrarCSV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this,mostrarCSVActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        mostrarJSON.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               Intent intent = new Intent(MainActivity.this,mostrarJSONActivity.class);
+               startActivity(intent);
+
+            }
+        });
+
+        mostrarXML.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this,mostrarXMLActivity.class);
                 startActivity(intent);
 
             }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">videoclubPracticaFinal</string>
+    <string name="nombreSerie">Name of the TV Serie</string>
+    <string name="idSerie">ID</string>
+    <string name="estrenoSerie">Release date</string>
+    <string name="cadenaSerie">Channel</string>
+    <string name="numeroTemporadas">Nº of seasons</string>
+    <string name="insertarNuevaSerie">Chapter number</string>
+    <string name="title_activity_editar_series">Edit serie</string>
+    <string name="first_fragment_label">First ´Fragment</string>
+    <string name="modificarSerie">Modify Serie</string>
+    <string name="borrarSerie">Delete serie</string>
+    <string name="actualizarSerie">Update serie</string>
+    <string name="insertarCapitulo">New serie</string>
+    <string name="idCapitulo">ID</string>
+    <string name="tituloCapitulo">Chapter title</string>
+    <string name="numeroCapitulo">Nº of chapter</string>
+    <string name="resumen">Summary</string>
+    <string name="nuevoCapitulo">Add new chapter</string>
+    <string name="editarCapitulo">Edit chapter</string>
+    <string name="titulo">Title</string>
+    <string name="temporada">Season</string>
+    <string name="modificar">Modify</string>
+    <string name="eliminar">Delete</string>
+    <string name="mostrarCSV">Show CSV</string>
+    <string name="mostrarSerie">Show serie</string>
+    <string name="mostrarCapitulo">Show chapter</string>
+    <string name="mostrarJSON">Show JSON</string>
+    <string name="mostrarXML">Show XML</string>
+</resources>

@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VideoclubPracticaFinal"
         android:usesCleartextTraffic="true">
-        <activity android:name=".editarCapituloActivity"></activity>
+        <activity android:name=".mostrarXMLActivity"></activity>
+        <activity android:name=".mostrarJSONActivity" />
+        <activity android:name=".mostrarCSVActivity" />
+        <activity android:name=".editarCapituloActivity" />
         <activity android:name=".nuevoCapituloActivity" />
         <activity android:name=".editarSerie" />
         <activity android:name=".insertarSerie" />

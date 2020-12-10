@@ -9,12 +9,12 @@
     <string name="title_activity_editar_series">editarSeries</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
     <string name="modificarSerie">Modificar serie</string>
     <string name="borrarSerie">Borrar serie</string>
     <string name="actualizarSerie">Actualizar serie</string>
@@ -25,4 +25,13 @@
     <string name="resumen">resumen</string>
     <string name="nuevoCapitulo">Añadir nuevo capítulo</string>
     <string name="editarCapitulo">editar capitulo</string>
+    <string name="titulo">Título</string>
+    <string name="temporada">Temporada</string>
+    <string name="modificar">modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="mostrarCSV">Mostrar CSV</string>
+    <string name="mostrarSerie">mostrar serie</string>
+    <string name="mostrarCapitulo">mostrar capitulo</string>
+    <string name="mostrarJSON">mostrar json</string>
+    <string name="mostrarXML">mostrarXML</string>
 </resources>

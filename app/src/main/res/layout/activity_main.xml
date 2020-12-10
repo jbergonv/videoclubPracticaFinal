@@ -47,4 +47,36 @@
         app:layout_constraintEnd_toEndOf="@+id/botonInsertarCapitulo"
         app:layout_constraintTop_toBottomOf="@+id/botonInsertarCapitulo" />
 
+    <Button
+        android:id="@+id/mostrarCSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/mostrarCSV"
+        app:layout_constraintStart_toStartOf="@+id/editarCapitulo"
+        app:layout_constraintTop_toBottomOf="@+id/editarCapitulo" />
+
+    <Button
+        android:id="@+id/mostrarJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/mostrarJSON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarCSV" />
+
+    <Button
+        android:id="@+id/mostrarXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/mostrarXML"
+        app:layout_constraintStart_toStartOf="@+id/mostrarJSON"
+        app:layout_constraintTop_toBottomOf="@+id/mostrarJSON" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
